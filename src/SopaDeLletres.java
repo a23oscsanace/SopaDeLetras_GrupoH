@@ -37,10 +37,34 @@ public class SopaDeLletres {
         if (paraula.equalsIgnoreCase("python")) {
             for (int i = 0; i < 6; i++) {
                 trobat[4][i] = true;
+            } return true;
+
+        }else if (paraula.equalsIgnoreCase("ruby")) {
+            for (int j = 1; j < 5; j++) {
+                trobat[j][1] = true;
+
+            }return true;
+        }else if (paraula.equalsIgnoreCase("java")) {
+            for (int i = 5; i < 9; i++) {
+
+                trobat[9][i] = true;
+
             }
             return true;
-        }else
+        }else if (paraula.equalsIgnoreCase("swift")) {
+            for (int j = 0; j < 5; j++) {
+                trobat[j][2] = true;
+            }
+            return true;
+        }else if (paraula.equalsIgnoreCase("cobol")) {
+            for (int j = 3; j < 8; j++) {
+                trobat[j][4] = true;
+            }
+            return true;
+
+        }else {
             return false;
+        }
     }
 
 
