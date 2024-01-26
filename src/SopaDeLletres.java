@@ -46,7 +46,6 @@ public class SopaDeLletres {
             }return true;
         }else if (paraula.equalsIgnoreCase("java")) {
             for (int i = 5; i < 9; i++) {
-
                 trobat[9][i] = true;
 
             }
